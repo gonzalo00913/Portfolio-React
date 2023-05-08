@@ -1,0 +1,55 @@
+.proyecto-img {
+  width: 350px;
+  margin: 20px;
+  border-radius:20px;
+  border: 5px solid rgb(197, 64, 16);
+}
+.proyectos {
+  display: flex;
+  margin-left: 450px;
+  margin-top: 220px;
+  text-shadow: 2px 2px 5px rgba(77, 76, 75, 0.5);
+}
+
+.proyectos {
+  animation: fade-in 1s ease-in;
+ 
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.proyecto-img:hover{
+    transition: all 0.4s ease;
+    transform: scale(1.1);
+}
+
+
+/*Habilidades Responsive*/
+@media screen and (max-width: 600px) {
+  .proyecto-img {
+    width: 60%;
+    margin: 15px;
+    border-radius:20px;
+
+  }
+  .proyectos {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-top: 50px;
+    
+  }
+  
+ 
+
+
+}

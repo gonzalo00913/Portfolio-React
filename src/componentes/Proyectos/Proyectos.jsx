@@ -1,14 +1,65 @@
-
+import proyecto1 from "../img/proyectos/proyecto1.png";
+import proyecto2 from "../img/proyectos/proyecto2.png";
+import proyecto3 from "../img/proyectos/proyecto3.png";
 import "../Proyectos/styleProyectos.css";
 
-const Proyectos = () =>{
-    return(
-        <div>
-            <section>
-          
-            </section>
-        </div>
-    )
+const proyectos = [
+  {
+    id: 1,
+    titulo: "Piedra papel y tijera",
+    descripcion: "",
+    imagen: proyecto1,
+    link:"https://gonzalo00913.github.io/Project-Rock-Paper-Scissors/"
+
+  },
+  {
+    id: 2,
+    titulo: "Calculadora",
+    descripcion: "",
+    imagen: proyecto2,
+    link:"https://gonzalo00913.github.io/Project--Three-Project-Calculator/"
+  },
+  {
+    id: 3,
+    titulo: "Etch-A-Sketch",
+    descripcion: "",
+    imagen: proyecto3,
+    link:"https://gonzalo00913.github.io/Etch-A-Sketch/"
+  },
+];
+
+function Proyecto({ titulo, descripcion, imagen,link }) {
+  return (
+    <div className="proyecto">
+      <a href={link}>
+      <img className="proyecto-img" src={imagen} alt={titulo} />
+      <h2>{titulo}</h2>
+      <p>{descripcion}</p>
+
+      </a>
+    </div>
+  );
 }
 
-export default Proyectos
+function Proyectos() {
+  return (
+    <div>
+      <div className="titulos-de-secciones">
+        <span>Mis</span>
+        <span className="texto-1">Proyectos</span>
+      </div>
+      <div className="proyectos">
+        {proyectos.map((proyecto) => (
+          <Proyecto
+            key={proyecto.id}
+            titulo={proyecto.titulo}
+            descripcion={proyecto.descripcion}
+            imagen={proyecto.imagen}
+            link={proyecto.link}
+          />
+        ))}
+      </div>
+    </div>
+  );
+}
+export default Proyectos;

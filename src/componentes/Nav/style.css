@@ -49,3 +49,57 @@ li {
   width: 75px;
   display: block;
 }
+/* Estilos para el menú responsive */
+
+@media (max-width: 768px) {
+  .estilos-nav {
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+    position: relative;
+  }
+
+  .link {
+    margin: 10px 0;
+    font-size: 1.2rem;
+  }
+
+
+
+  .responsive-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .responsive-nav button {
+    display: block;
+    width: 30px;
+    height: 30px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    z-index: 1;
+  }
+
+  .responsive-nav button:focus {
+    outline: none;
+  }
+
+  .responsive-nav button:first-of-type {
+    display: none;
+  }
+
+  .responsive-nav button:last-of-type {
+    display: block;
+  }
+  .ban{
+    display: none;
+  }
+  .responsive-nav.active .link {
+    display: block;
+    text-align: center;
+    width: 100%;
+    margin-top: 1rem;
+  }
+}
