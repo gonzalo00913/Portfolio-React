@@ -23,18 +23,8 @@ const Nav = () => {
           Proyectos
         </NavLink>
         <li className="separator"></li>
-{/*         <NavLink className="link" to="/contacto">
-          Contacto
-        </NavLink> */}
-        <li className="separator"></li>
-{/*         <button>
-          < FaTimes/>
-        </button>
-        <button>
-          <FaBars />
-        </button>
-         */}
-      </nav>
+     
+    </nav>
  
     </div>
   );

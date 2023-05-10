@@ -51,55 +51,101 @@ li {
 }
 /* Estilos para el menú responsive */
 
-@media (max-width: 768px) {
+@media (max-width: 600px) {
   .estilos-nav {
-    width: 100%;
-    height: auto;
-    padding: 1rem;
-    position: relative;
-  }
-
-  .link {
-    margin: 10px 0;
-    font-size: 1.2rem;
-  }
-
-
-
-  .responsive-nav {
+    background-color: #17191d;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 150px;
+    height: 100vh;
+    z-index: 0;
   }
-
-  .responsive-nav button {
+  
+  .link {
+    color: #e2e3e7;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .link:hover {
+    animation-name: color;
+    animation-duration: 900ms;
+    animation-fill-mode: forwards;
+    transition: all 0.3s ease-in-out;
+    transform: translateX(0) translateX(10px);
+  }
+  @keyframes color {
+    100% {
+      color: rgb(197, 64, 16);
+    }
+  }
+  
+  .separator {
+    border-bottom: 1px solid rgb(47, 47, 47);
+    width: 80%;
+    margin: -1px 0;
+  }
+  li {
+    list-style: none;
+  }
+  
+  .logo-nav {
+    margin-bottom: 800px;
+    position: absolute;
+  }
+  .ban {
+    width: 55px;
     display: block;
-    width: 30px;
-    height: 30px;
-    background: transparent;
-    border: none;
-    cursor: pointer;
-    z-index: 1;
+  }
+}
+
+@media screen and (min-width: 601px) and (max-width: 800px) {
+  /* Reglas de estilo para pantallas medianas */
+
+  .estilos-nav {
+    background-color: #17191d;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 190px;
+    height: 100vh;
+    z-index: 0;
+  }
+  
+  .link {
+    color: #e2e3e7;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 19px;
   }
 
-  .responsive-nav button:focus {
-    outline: none;
+  
+  .separator {
+    border-bottom: 1px solid rgb(47, 47, 47);
+    width: 80%;
+    margin: -1px 0;
   }
-
-  .responsive-nav button:first-of-type {
-    display: none;
+  li {
+    list-style: none;
   }
-
-  .responsive-nav button:last-of-type {
+  
+  .logo-nav {
+    margin-bottom: 800px;
+    position: absolute;
+  }
+  .ban {
+    width: 65px;
     display: block;
-  }
-  .ban{
-    display: none;
-  }
-  .responsive-nav.active .link {
-    display: block;
-    text-align: center;
-    width: 100%;
-    margin-top: 1rem;
   }
 }

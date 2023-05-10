@@ -68,15 +68,19 @@ span {
 
   @media screen and (max-width: 600px) {
     .container-logos {
-      background-color: #17191d;
-      margin: 10%;
+      background-color:none;
+      margin: 17%;
       border-radius: 20px;
       border: 4px solid rgb(197, 64, 16);
+      margin-left: 200px;
+     
     }
     .logo-habilidades {
-      width: 19%;
+ 
+      
+      width:30%;
       margin: 1px;
-      padding: 20px;
+      padding: 16px;
       transition: all 0.2s ease;
     }
     
@@ -98,7 +102,8 @@ span {
     }
     
     span {
-      margin-left: -270px;
+      margin-left: -190px;
+      font-size: 30px;
     }
     .texto-1 {
       margin-left: -1px;
@@ -107,4 +112,47 @@ span {
   
   }
   
+  @media screen and (min-width: 500px) and (max-width: 800px) {
+    .container-logos {
+      background-color: #17191d;
+      margin: 10%;
+      border-radius: 20px;
+      border: 4px solid rgb(197, 64, 16);
+      margin-left: 260px;
+     
+    }
+    .logo-habilidades {
+      width:29%;
+      margin: 1px;
+      padding: 10px;
+      transition: all 0.2s ease;
+    }
+    
+    .logo-habilidades:hover {
+      transform: scale(1.2);
+    }
+    
+    .container-todo {
+      display: flex;
+    }
+    
+    .parrafo-habilidades {
+      display: none;
+    }
+    
+    
+    .titulos-de-secciones {
+     padding-top: 15%;
+    }
+    
+    span {
+      margin-left: -160px;
+      font-size: 30px;
+    }
+    .texto-1 {
+      margin-left: -1px;
+    }
+    
   
+  
+  }

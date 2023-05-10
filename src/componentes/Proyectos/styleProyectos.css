@@ -36,15 +36,16 @@
 /*Habilidades Responsive*/
 @media screen and (max-width: 600px) {
   .proyecto-img {
-    width: 60%;
-    margin: 15px;
+    width: 65%;
+    margin: 25px;
     border-radius:20px;
+
 
   }
   .proyectos {
     display: flex;
     flex-direction: column;
-    margin-left: 10px;
+    margin-left:150px;
     margin-top: 50px;
     
   }
@@ -52,4 +53,20 @@
  
 
 
+}
+@media screen and (min-width: 601px) and (max-width: 800px) {
+  .proyecto-img {
+    width: 55%;
+    margin: 25px;
+    border-radius:20px;
+
+
+  }
+  .proyectos {
+    display: flex;
+    flex-direction: column;
+    margin-left:150px;
+    margin-top: 50px;
+    
+  }
 }
