@@ -28,8 +28,13 @@
 }
 
 .proyecto-img:hover{
-    transition: all 0.4s ease;
-    transform: scale(1.1);
+
+  transform: scale(1.1);
+
+}
+.proyecto-img {
+  transition: transform 0.6s ease-in-out;
+
 }
 
 

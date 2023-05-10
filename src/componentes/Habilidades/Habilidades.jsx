@@ -48,7 +48,7 @@ const Habilidades = () => {
         </p>
         
       </div>
-    <Redes/>
+
     </div>
   );
 };
