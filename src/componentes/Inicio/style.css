@@ -71,6 +71,7 @@ u {
 }
 .item-1 {
   background-color: rgb(33, 101, 249);
+  transition: all 0.4s ease-in-out;
 }
 
 .item-2:hover {
@@ -80,6 +81,7 @@ u {
 }
 .item-2 {
   background-color: rgb(54, 54, 55);
+  transition: all 0.4s ease-in-out;
 }
 
 .item-3:hover {
@@ -89,6 +91,7 @@ u {
 }
 .item-3 {
   background-color: rgb(20, 180, 201);
+  transition: all 0.4s ease-in-out;
 }
 
 a {
