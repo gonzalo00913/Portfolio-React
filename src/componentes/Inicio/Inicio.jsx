@@ -6,20 +6,20 @@ import Redes from "../Redes/Redes";
 const Inicio = () => {
   return (
     <div className="contenedor-principal responsive-nav">
-      <h1>Front end Developer</h1>
+      <h1 className="full-stack">Front end Developer</h1>
       <div className="container-about-me">
         <img className="img-me" src={img} alt="mi imagen" />
         <p className="text-inicio">
-          <u>Sobre Mi</u>
+          <u>About me</u>
           <br />
-          Soy una persona muy motivada y comprometida con mi aprendizaje y
-          crecimiento profesional. Me caracterizo por mi capacidad para trabajar
-          como equipo y mi actitud positiva, siempre buscando aprender y mejorar
-          en lo que hago.
+          I am a very motivated and committed person with my learning and
+          professional growth. I characterize myself by my ability to work
+          as a team and my positive attitude, always looking to learn and improve
+          In what I do.
           <strong>
-            Mi objetivo es aplicar mis habilidades y conocimientos adquiridos
-            hasta el momento, contribuir al éxito de la empresa y lograr
-            objetivos ambiciosos en el futuro.
+            My goal is to apply my acquired skills and knowledge
+            up to now, contribute to the success of the company and achieve
+            ambitious goals in the future.
           </strong>
         </p>
       </div>

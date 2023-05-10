@@ -6,23 +6,22 @@ const Nav = () => {
   return (
     <div>
       <nav className="estilos-nav responsive-nav">
-        <div className="logo-nav">
+        <div className="">
           <img className="ban" src={imgLogo} alt="logo" />
         </div>
-        <li className="separator"></li>
+      <div className="container-links">
         <NavLink className="link" to="/" exact>
-          {" "}
-          Inicio{" "}
+          About
         </NavLink>
-        <li className="separator"></li>
+
         <NavLink className="link" to="/habilidades">
-          Habilidades
+          Skills
         </NavLink>
-        <li className="separator"></li>
+    
         <NavLink className="link" to="/proyectos">
-          Proyectos
+          Projects
         </NavLink>
-        <li className="separator"></li>
+        </div>
      
     </nav>
  

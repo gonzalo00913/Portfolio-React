@@ -6,7 +6,7 @@ import "../Proyectos/styleProyectos.css";
 const proyectos = [
   {
     id: 1,
-    titulo: "Piedra papel y tijera",
+    titulo: "Rock Paper and scissors",
     descripcion: "",
     imagen: proyecto1,
     link:"https://gonzalo00913.github.io/Project-Rock-Paper-Scissors/"
@@ -14,7 +14,7 @@ const proyectos = [
   },
   {
     id: 2,
-    titulo: "Calculadora",
+    titulo: "Calculator",
     descripcion: "",
     imagen: proyecto2,
     link:"https://gonzalo00913.github.io/Project--Three-Project-Calculator/"
@@ -45,8 +45,8 @@ function Proyectos() {
   return (
     <div>
       <div className="titulos-de-secciones">
-        <span>Mis</span>
-        <span className="texto-1">Proyectos</span>
+        <span>My</span>
+        <span className="texto-1">Projects</span>
       </div>
       <div className="proyectos">
         {proyectos.map((proyecto) => (

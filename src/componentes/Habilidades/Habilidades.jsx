@@ -9,6 +9,7 @@ import logoSQL from "../img/Logos/sql.png";
 import logoBootstrap from "../img/Logos/bootstrap.png";
 import logoSass from "../img/Logos/sass.png";
 import logoPostgresql from "../img/Logos/postgresql.png";
+import Redes from "../Redes/Redes";
 
 import "../Habilidades/styleHabilidades.css";
 
@@ -17,8 +18,8 @@ const Habilidades = () => {
   return (
     <div>
       <div className="titulos-de-secciones">
-        <span>Mis</span>
-        <span className="texto-1">Habilidades</span>
+        <span>My</span>
+        <span className="texto-1">Skills</span>
       </div>
       <div className="container-todo">
         <section className="container-logos">
@@ -36,18 +37,18 @@ const Habilidades = () => {
         </section>
         <p className="parrafo-habilidades">
           {" "}
-          "Tengo conocimientos en el desarrollo de sitios web utilizando HTML5,
-          CSS3 y JavaScript. Además, tengo experiencia en el uso de
-          preprocesadores de CSS como Sass y he trabajado con frameworks como
-          Bootstrap para crear diseños escalables y responsivos.<br/><br/>También tengo
-          conocimientos básicos en el desarrollo de aplicaciones back-end
-          utilizando Express y bases de datos SQL como PostgreSQL. He utilizado
-          Git para el control de versiones en mis proyectos y estoy
-          continuamente aprendiendo y mejorando mis habilidades."{" "}
+          "I have knowledge in the development of websites using HTML5,
+          CSS3 and JavaScript. Also, I have experience using
+          CSS preprocessors like Sass and worked with frameworks like
+          Bootstrap to create scalable and responsive layouts.<br/><br/>I also have
+          Basic knowledge in back-end application development
+          using Express and SQL databases like PostgreSQL. he used
+          Git for version control on my projects and I'm
+          continually learning and improving my skills."{" "}
         </p>
         
       </div>
-  
+    <Redes/>
     </div>
   );
 };
