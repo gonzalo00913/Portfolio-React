@@ -1,4 +1,4 @@
-import React from "react";
+/* import React from "react";
 const video = require("../media/meme.mp4");
 
 const Home = () => {
@@ -12,4 +12,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Home; */

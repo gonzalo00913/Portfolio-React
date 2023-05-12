@@ -10,11 +10,11 @@ const Nav = () => {
           <img className="ban" src={imgLogo} alt="logo" />
         </div>
       <div className="container-links">
-      <NavLink className="link home" to="/home">
+{/*       <NavLink className="link home" to="/home">
          Home
-        </NavLink>
-        <NavLink className="link" to="/" exact>
-          About
+        </NavLink> */}
+        <NavLink className="link home" to="/" exact>
+          Home
         </NavLink>
 
         <NavLink className="link" to="/habilidades">
@@ -24,7 +24,9 @@ const Nav = () => {
         <NavLink className="link" to="/proyectos">
           Projects
         </NavLink>
-   
+        <NavLink className="link contacto" to="/contacto">
+          Contacto
+        </NavLink>
         </div>
      
     </nav>

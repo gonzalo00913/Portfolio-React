@@ -1,7 +1,12 @@
+import "../Contacto/styleContacto.css";
+import React from "react";
+
 const Contacto = () =>{
     return(
         <div>
-            <h1>Contacto</h1>
+            <p className="loader" >
+in progress</p>
+            
         </div>
     )
 }
