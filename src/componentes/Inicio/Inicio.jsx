@@ -14,10 +14,8 @@ const Inicio = () => {
           <u>About me</u>
           <br />I am a very motivated and committed person with my learning and
           professional growth. I characterize myself by my ability to work as a
-          team and my positive attitude, always looking to learn and improve In
-          what I do.
-          <strong>
-            My goal is to apply my acquired skills and knowledge up to now,
+          team and my positive attitude, always looking to learn and improve in
+          what I do.<strong>  My goal is to apply my acquired skills and knowledge up to now,
             contribute to the success of the company and achieve ambitious goals
             in the future.
           </strong>
