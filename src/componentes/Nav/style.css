@@ -31,10 +31,10 @@
 
 .link:hover {
   animation-name: color;
-  animation-duration: 900ms;
+  animation-duration: 100ms;
   animation-fill-mode: forwards;
   transition: all 0.3s ease-in-out;
-  transform: translateX(0) translateX(10px);
+  transform: translateX(0) translateX(5px);
 }
 
 .link {
