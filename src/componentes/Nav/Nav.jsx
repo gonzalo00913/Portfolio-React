@@ -25,7 +25,7 @@ const Nav = () => {
           Projects
         </NavLink>
         <NavLink className="link contacto" to="/contacto">
-          Contacto
+          Contact
         </NavLink>
         </div>
      
