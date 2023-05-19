@@ -32,14 +32,13 @@ const proyectos = [
   
 ];
 
-function Proyecto({ titulo, descripcion, imagen,link}) {
+function Proyecto({ titulo, descripcion, imagen, link }) {
   return (
     <div className="proyecto">
-      <a href={link}>
-      <img className="proyecto-img" src={imagen} alt={titulo} />
-      <h2>{titulo}</h2>
-      <p className="parrafo-proyecto">{descripcion}</p>
-
+      <a href={link} target="_blank" rel="noopener noreferrer">
+        <img className="proyecto-img" src={imagen} alt={titulo} />
+        <h2>{titulo}</h2>
+        <p className="parrafo-proyecto">{descripcion}</p>
       </a>
     </div>
   );
