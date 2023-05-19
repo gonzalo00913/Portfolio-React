@@ -213,115 +213,12 @@ span {
   }
   
   
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  /* @media (max-width: 600px) {
-    .container-logos {
-      background-color: #17191d;
-      width: 70%;
-      margin: 8% 0px 0px 15%;
-      border-radius: 20px;
-      border: 4px solid rgb(197, 64, 16) ;
+  .cv-download{
+    background-color:  rgb(197, 64, 16);
+    width: 150px;
+    border-radius: 10px;
+    height: 40px;
+    margin: auto;
+    margin-top: 40px;
+    font-size: 20px;
     }
-    .logo-habilidades {
-      width: 15%;
-      margin: 15px;
-      padding: 10px;
-      transition: all 0.2s ease;
-    }
-    
-    .logo-habilidades:hover{
-        transform: scale(1.2);
-    }
-    
-    .container-todo {
-      display: flex;
-    
-    }
-    
-    .parrafo-habilidades {
-      width:80%;
-      margin-top: 20px;
-      text-align: center;
-      margin-left: 12%;
-      font-size: 18px;
-      text-shadow: 4px 4px 8px #282828;
-    }
-    .container-todo {
-      display: flex;
-      flex-direction: column;
-    }
-
-    .titulos-de-secciones {
-      display: flex;
-      justify-content: left;
-      font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-      padding-top: 120px;
-      margin-left: 20px;
-      font-size: 28px;
-      color: #e2e3e7;
-      text-shadow: 2px 2px 5px rgba(77, 76, 75, 0.5);
-    }
-  
-  }
-  
-  @media screen and (min-width: 601px) and (max-width: 800px) {
-    .container-logos {
-      background-color: #17191d;
-      width: 75%;
-      margin: 8% 0px 0px 15%;
-      border-radius: 20px;
-      border: 4px solid rgb(197, 64, 16) ;
-    }
-    .logo-habilidades {
-      width: 15%;
-      margin: 15px;
-      padding: 10px;
-      transition: all 0.2s ease;
-    }
-    
-    .logo-habilidades:hover{
-        transform: scale(1.2);
-    }
-    
-    .container-todo {
-      display: flex;
-    
-    }
-    
-    .parrafo-habilidades {
-      width:80%;
-      margin-top: 20px;
-      text-align: center;
-      margin-left: 12%;
-      font-size: 18px;
-      text-shadow: 4px 4px 8px #282828;
-    }
-    .container-todo {
-      display: flex;
-      flex-direction: column;
-    }
-
-    .titulos-de-secciones {
-      display: flex;
-      justify-content: left;
-      font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-      padding-top: 120px;
-      margin-left: 20px;
-      font-size: 28px;
-      color: #e2e3e7;
-      text-shadow: 2px 2px 5px rgba(77, 76, 75, 0.5);
-    }
-  
-  
-  } */

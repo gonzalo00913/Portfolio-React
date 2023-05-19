@@ -3,6 +3,7 @@ import img from "../img/me.png";
 import React from "react";
 import Redes from "../Redes/Redes";
 
+
 const Inicio = () => {
   return (
     <div className="contenedor-principal responsive-nav">
@@ -18,10 +19,14 @@ const Inicio = () => {
           what I do.<strong>  My goal is to apply my acquired skills and knowledge up to now,
             contribute to the success of the company and achieve ambitious goals
             in the future.
-          </strong>
+          </strong> <br />
+
         </p>
+  
       </div>
+
       <Redes />
+
     </div>
   );
 };

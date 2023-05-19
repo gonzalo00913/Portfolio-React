@@ -9,8 +9,8 @@ import logoSQL from "../img/Logos/sql.png";
 import logoBootstrap from "../img/Logos/bootstrap.png";
 import logoSass from "../img/Logos/sass.png";
 import logoPostgresql from "../img/Logos/postgresql.png";
-import Redes from "../Redes/Redes";
 
+import CV from '../assets/CV-GonzaloMasa.pdf';
 import "../Habilidades/styleHabilidades.css";
 
 
@@ -44,12 +44,16 @@ const Habilidades = () => {
           Basic knowledge in back-end application development
           using Express and SQL databases like PostgreSQL. he used
           Git for version control on my projects and I'm
-          continually learning and improving my skills."{" "}
+          continually learning and improving my skills." <br />
+          <button className="cv-download">
+   <a href={CV} download="mi-cv.pdf">Descargar CV</a> 
+  </button>
         </p>
-        
+
       </div>
 
     </div>
+    
   );
 };
 

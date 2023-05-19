@@ -24,9 +24,10 @@ const Nav = () => {
         <NavLink className="link" to="/proyectos">
           Projects
         </NavLink>
-        <NavLink className="link contacto" style={{ textDecoration: 'line-through' }}to="/contacto">
+        <NavLink className="link contacto" to="/contact">
           Contact
         </NavLink>
+        
         </div>
      
     </nav>
