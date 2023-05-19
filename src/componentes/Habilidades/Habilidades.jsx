@@ -16,7 +16,7 @@ import "../Habilidades/styleHabilidades.css";
 
 const Habilidades = () => {
   return (
-    <div>
+    <div className="vh">
       <div className="titulos-de-secciones">
         <span>My</span>
         <span className="texto-1">Skills</span>

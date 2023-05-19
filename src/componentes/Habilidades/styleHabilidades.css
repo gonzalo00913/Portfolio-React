@@ -1,7 +1,7 @@
 .container-logos {
   background-color: #17191d;
   width: 400px;
-  margin: 100px 0px 0px 26%;
+  margin: 30px 0px 0px 26%;
   border-radius: 20px;
   border: 4px solid rgb(197, 64, 16) ;
 }
@@ -18,12 +18,14 @@
 
 .container-todo {
   display: flex;
-
+ 
 }
-
+.vh{
+  min-height: 50vh
+}
 .parrafo-habilidades {
   width:25%;
-  margin-top: 180px;
+  margin-top: 100px;
   text-align: left;
   margin-left: 3%;
   font-size: 21px;

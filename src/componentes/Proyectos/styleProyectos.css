@@ -7,13 +7,10 @@
 .proyectos {
   display: flex;
   justify-content: center;
-  margin-top: 150px;
+  margin-top: 80px;
   text-shadow: 2px 2px 5px rgba(77, 76, 75, 0.5);
-}
-
-.proyectos {
+  min-height: 50vh;
   animation: fade-in 1s ease-in;
- 
 }
 
 @keyframes fade-in {
@@ -26,6 +23,7 @@
     transform: translateY(0);
   }
 }
+
 
 .proyecto-img:hover{
  transform: scale(1.1);
