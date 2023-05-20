@@ -10,20 +10,19 @@ const Nav = () => {
           <img className="ban" src={imgLogo} alt="logo" />
         </div>
         <div className="container-links ">
-  
-          <NavLink className="link home" to="/" exact>
-            <i class="fa-solid fa-house"></i>
+          <NavLink className="link home" to="/" exact title="Home">
+            <i className="fa-solid fa-house"></i>
           </NavLink>
 
-          <NavLink className="link" to="/habilidades">
-            <i class="fa-solid fa-gear"></i>
+          <NavLink className="link" to="/habilidades" title="Skills">
+            <i className="fa-solid fa-gear"></i>
           </NavLink>
 
-          <NavLink className="link" to="/proyectos">
-            <i class="fa-solid fa-sheet-plastic"></i>
+          <NavLink className="link" to="/proyectos" title="Projects">
+            <i className="fa-solid fa-sheet-plastic"></i>
           </NavLink>
-          <NavLink className="link contacto" to="/contact">
-            <i class="fa-solid fa-phone"></i>
+          <NavLink className="link contacto" to="/contact" title="Contact">
+            <i className="fa-solid fa-phone"></i>
           </NavLink>
         </div>
       </nav>

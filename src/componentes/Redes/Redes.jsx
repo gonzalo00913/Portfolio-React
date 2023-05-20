@@ -23,6 +23,7 @@ const Redes = () =>{
             </a>
           </li>
         </div>
+      
       </div>
         </div>
     )

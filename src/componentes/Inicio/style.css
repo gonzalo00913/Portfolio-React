@@ -55,13 +55,13 @@ u {
 
 .redes {
   list-style: none;
-  font-size: 36px;
+  font-size: 33px;
   float: right;
   z-index: 100;
-  right: -8.8rem;
+  right: -9.4rem;
   margin-top: -60px;
   text-align: left;
-  width: 200px;
+  width: 210px;
   position: fixed;
   
  
@@ -98,6 +98,16 @@ u {
 }
 .item-3 {
   background-color: rgb(20, 180, 201);
+  transition: all 0.4s ease-in-out;
+  border-radius: 5px;
+}
+.item-4:hover {
+  transition: all 0.3s ease-in-out;
+  transform: translateX(-115);
+  transform: translateX(-133px);
+}
+.item-4 {
+  background-color: rgb(201, 20, 111);
   transition: all 0.4s ease-in-out;
   border-radius: 5px;
 }

@@ -22,6 +22,10 @@
   font-size: 24px;
 
 }
+.link.active {
+  color: rgb(197, 64, 16);
+}
+
 .ban {
   width: 65px;
   display: block;
@@ -115,10 +119,10 @@ i{
    color: #e2e3e7;
    list-style: none;
    margin: 7px;
-  
    font-size: 18px;
- 
  }
+
+ 
  .ban {
   width: 40px;
 
