@@ -11,14 +11,14 @@
 .container-links{
   display: flex;
   justify-content: right;
-  margin-top: 10px;
+  margin-top: 3px;
   margin-right: 140px;
 }
 
 .link {
   color: #e2e3e7;
   list-style: none;
-  margin: 14px;
+  margin: 16px;
   font-size: 24px;
 
 }
@@ -44,8 +44,13 @@
   100% {
     color: rgb(197, 64, 16);
   }
-}
 
+
+}
+.icono,
+i{
+  font-size: 30px;
+}
 
 
 /* Estilos para el menú responsive */
@@ -79,7 +84,10 @@
  .ban {
 display: none;
 }
-
+.icono,
+i{
+  font-size: 20px;
+}
 
 }
 
@@ -117,6 +125,11 @@ display: none;
   float: left;
   margin-left: 10px;
 }
+i{
+  font-size: 25px;
+  padding: 5px;
+  
+}
 } 
 
 @media screen and (min-width: 601px) and (max-width: 800px) {
@@ -153,91 +166,3 @@ display: none;
 }
 } 
 
-
-
-/*  
-@media screen and (min-width: 570px) and (max-width: 800px) {
-   
- .container-links{
-  display: flex;
-  justify-content: right;
-  margin-top: 10px;
-  margin-right: 40px;
-}
-
-
-  .ban {
-    width: 65px;
-    display: block;
-    float: left;
-    margin-left: 50px;
-  }
-} 
-
-
-
- .estilos-nav {
-    background-color: #17191d;
-    padding: 15px;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 1;
-    
-   }
- 
- .container-links{
-   display: flex;
-   justify-content: right;
-   margin-top: 1px;
-   margin-right: 5%;
- }
- 
- .link {
-   color: #e2e3e7;
-   list-style: none;
-   margin: 12px;
-   font-size: 20px;
- 
- }
- .ban {
-  width: 45px;
-  display: block;
-  float: left;
-  margin-left: 10px;
-} */
-
-
-/* 
- @media (max-width: 570px) {
-  .estilos-nav {
-    background-color: #17191d;
-    padding: 15px;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 1;
-    
-   }
- 
- .container-links{
-   display: flex;
-   justify-content: right;
-   margin-top: 1px;
-   margin-right: 5%;
- }
- 
- .link {
-   color: #e2e3e7;
-   list-style: none;
-   margin: 12px;
-   font-size: 20px;
- 
- }
- .ban {
-  width: 45px;
-  display: block;
-  float: left;
-  margin-left: 10px;
-}
-} */

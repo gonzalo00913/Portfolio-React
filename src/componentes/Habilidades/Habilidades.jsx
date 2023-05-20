@@ -46,7 +46,7 @@ const Habilidades = () => {
           Git for version control on my projects and I'm
           continually learning and improving my skills." <br />
           <button className="cv-download">
-   <a href={CV} download="mi-cv.pdf">Descargar CV</a> 
+   <a href={CV} download="mi-cv.pdf">Download CV</a> 
   </button>
         </p>
 

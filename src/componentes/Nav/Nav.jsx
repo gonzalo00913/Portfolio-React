@@ -1,7 +1,7 @@
 import { NavLink } from "react-router-dom";
-/* import {FaBars,FaTimes} from "react-icons/fa" */
 import "../Nav/style.css";
 import imgLogo from "../img/naranja.png";
+
 const Nav = () => {
   return (
     <div>
@@ -9,29 +9,24 @@ const Nav = () => {
         <div className="">
           <img className="ban" src={imgLogo} alt="logo" />
         </div>
-      <div className="container-links">
-{/*       <NavLink className="link home" to="/home">
-         Home
-        </NavLink> */}
-        <NavLink className="link home" to="/" exact>
-          Home
-        </NavLink>
+        <div className="container-links ">
+  
+          <NavLink className="link home" to="/" exact>
+            <i class="fa-solid fa-house"></i>
+          </NavLink>
 
-        <NavLink className="link" to="/habilidades">
-          Skills
-        </NavLink>
-    
-        <NavLink className="link" to="/proyectos">
-          Projects
-        </NavLink>
-        <NavLink className="link contacto" to="/contact">
-          Contact
-        </NavLink>
-        
+          <NavLink className="link" to="/habilidades">
+            <i class="fa-solid fa-gear"></i>
+          </NavLink>
+
+          <NavLink className="link" to="/proyectos">
+            <i class="fa-solid fa-sheet-plastic"></i>
+          </NavLink>
+          <NavLink className="link contacto" to="/contact">
+            <i class="fa-solid fa-phone"></i>
+          </NavLink>
         </div>
-     
-    </nav>
- 
+      </nav>
     </div>
   );
 };
