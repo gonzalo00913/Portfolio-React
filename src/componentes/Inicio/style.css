@@ -189,7 +189,7 @@ display: none;
   .container-about-me {
     display: flex;
     flex-direction: column;
-    margin-top: 100px; 
+    margin-top: 40px; 
     justify-content: center;
   }
   .text-inicio {
