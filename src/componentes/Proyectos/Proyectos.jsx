@@ -43,14 +43,14 @@ const proyectos = [
     id: 5,
     titulo: "In progress",
     imagen: proyecto5,
-    link:"https://effulgent-bunny-28c553.netlify.app/",
+    link:"",
     descripcion:""
   },
   {
     id: 6,
     titulo: "In progress",
     imagen: proyecto6,
-    link:"https://effulgent-bunny-28c553.netlify.app/",
+    link:"",
     descripcion:""
   },
 
