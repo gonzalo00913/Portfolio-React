@@ -43,14 +43,14 @@ const proyectos = [
     id: 5,
     titulo: "In progress",
     imagen: proyecto5,
-    link:"",
+
     descripcion:""
   },
   {
     id: 6,
     titulo: "In progress",
     imagen: proyecto6,
-    link:"",
+    
     descripcion:""
   },
 
