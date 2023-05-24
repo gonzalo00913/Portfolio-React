@@ -9,7 +9,7 @@
 .proyectos {
   display: flex;
   flex-wrap: wrap;
- justify-content: center;
+  justify-content: center;
   margin-top: 80px;
   text-shadow: 2px 2px 5px rgba(77, 76, 75, 0.5);
   min-height: 50vh;
@@ -58,7 +58,7 @@
     flex-direction: column;
     margin-top: 30px;
     text-shadow: 2px 2px 5px rgba(77, 76, 75, 0.5);
-
+    
   }
 
 }

@@ -38,21 +38,7 @@ const proyectos = [
     imagen: proyecto4,
     link:"https://effulgent-bunny-28c553.netlify.app/",
     descripcion:"I have developed a simple notes application using React.js together with Node.js and Express. This app allowed users to add new notes and delete them as needed."
-  },
-  {
-    id: 5,
-    titulo: "In progress",
-    imagen: proyecto5,
-
-    descripcion:""
-  },
-  {
-    id: 6,
-    titulo: "In progress",
-    imagen: proyecto6,
-    
-    descripcion:""
-  },
+  }
 
   
 ];

@@ -14,6 +14,7 @@ const Contact= () => {
 
     // Configura tus credenciales de EmailJS
     emailjs.sendForm('service_2is28rb', 'template_k6zej7q', e.target, 'd_vq503pTgx_-I6Ol')
+    
       .then((result) => {
         console.log(result.text);
         // Limpia los campos del formulario después de enviar el mensaje
