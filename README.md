@@ -14,7 +14,7 @@ lista de algunos de mis proyectos.
 
 ## Tecnologías
 
-- Lista de las tecnologías en las que tienes experiencia y te sientes cómodo trabajando, por ejemplo:
+  - Tecnologías:
   - HTML/CSS
   - JavaScript
   - React
