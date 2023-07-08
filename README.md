@@ -26,7 +26,7 @@ lista de algunos de mis proyectos.
 
 ## Experiencia
 
-Breve resumen de tu experiencia laboral o proyectos en los que has participado. Puedes incluir información sobre las responsabilidades que has tenido y las tecnologías utilizadas.
+trabaje en varios proyectos personales que me han permitido adquirir experiencia y fortalecer mis habilidades en diferentes tecnologías.
 
 ## Contacto
 
