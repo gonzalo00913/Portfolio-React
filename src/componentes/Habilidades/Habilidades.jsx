@@ -10,7 +10,7 @@ import logoBootstrap from "../img/Logos/bootstrap.png";
 import logoSass from "../img/Logos/sass.png";
 import logoPostgresql from "../img/Logos/postgresql.png";
 
-import CV from '../assets/CV-GonzaloMasa.pdf';
+import CV from '../assets/CV-GONZALO_MASA.pdf';
 import "../Habilidades/styleHabilidades.css";
 
 
@@ -46,7 +46,7 @@ const Habilidades = () => {
           Git for version control on my projects and I'm
           continually learning and improving my skills." <br />
           <button className="cv-download">
-   <a href={CV} download="mi-cv.pdf">Download CV</a> 
+   <a href={CV} download="CV-Gonzalo-Masa.pdf">Download CV</a> 
   </button>
         </p>
 
