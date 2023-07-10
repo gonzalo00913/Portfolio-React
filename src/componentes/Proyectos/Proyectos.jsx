@@ -2,12 +2,20 @@ import proyecto1 from "../img/proyectos/proyecto1.png";
 import proyecto2 from "../img/proyectos/proyecto2.png";
 import proyecto3 from "../img/proyectos/proyecto3.png";
 import proyecto4 from "../img/proyectos/notes-project.png";
-/* import proyecto4 from "../img/proyectos/proyecto4.png";
-import proyecto5 from "../img/proyectos/proyecto5.png";
+import proyecto5 from "../img/proyectos/proyecto7.png";
+/* import proyecto5 from "../img/proyectos/proyecto5.png";
 import proyecto6 from "../img/proyectos/proyecto6.png"; */
 import "../Proyectos/styleProyectos.css";
 
 const proyectos = [
+  
+  {
+    id: 5,
+    titulo: "Food app:",
+    imagen: proyecto5,
+    link:"https://food-app-gonzalo-masa.netlify.app/",
+    descripcion:"Food app built with React, Node.js, Express, PostgreSQL, and Sequelize. Allows you to search, filter, and create recipes, and uses Redux for app state management."
+  },
   {
     id: 1,
     titulo: "Rock Paper and scissors:",
@@ -40,6 +48,7 @@ const proyectos = [
     link:"https://app-notes-2-0.netlify.app/",
     descripcion:"I have developed a simple notes application using React.js together with Node.js and Express. This app allowed users to add new notes and delete them as needed."
   }
+  
 
   
 ];
