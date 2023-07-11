@@ -7,7 +7,7 @@ import Redes from "../Redes/Redes";
 const Inicio = () => {
   return (
     <div className="contenedor-principal responsive-nav">
-      <h1 className="full-stack">Front end Developer</h1>
+      <h1 className="full-stack">Web Developer</h1>
 
       <div className="container-about-me">
         <img className="img-me" src={img} alt="mi imagen" />
