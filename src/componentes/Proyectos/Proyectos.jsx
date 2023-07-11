@@ -3,8 +3,7 @@ import proyecto2 from "../img/proyectos/proyecto2.png";
 import proyecto3 from "../img/proyectos/proyecto3.png";
 import proyecto4 from "../img/proyectos/notes-project.png";
 import proyecto5 from "../img/proyectos/proyecto7.png";
-/* import proyecto5 from "../img/proyectos/proyecto5.png";
-import proyecto6 from "../img/proyectos/proyecto6.png"; */
+import proyecto8 from "../img/proyectos/proyecto8.png";
 import "../Proyectos/styleProyectos.css";
 
 const proyectos = [
@@ -46,6 +45,13 @@ const proyectos = [
     titulo: "Notes:",
     imagen: proyecto4,
     link:"https://app-notes-2-0.netlify.app/",
+    descripcion:"I have developed a simple notes application using React.js together with Node.js and Express. This app allowed users to add new notes and delete them as needed."
+  },
+  {
+    id: 6,
+    titulo: "Phonebook:",
+    imagen: proyecto8,
+    link:"https://app-phonebook-2-0.netlify.app/",
     descripcion:"I have developed a simple notes application using React.js together with Node.js and Express. This app allowed users to add new notes and delete them as needed."
   }
   

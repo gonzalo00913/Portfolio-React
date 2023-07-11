@@ -17,6 +17,7 @@
   border: 3px solid rgb(197, 64, 16);
   background-color: #17191d;;
   box-shadow: 0 0 10px #393939;
+  padding: 20px;
 }
 
 .container-name{
@@ -43,18 +44,22 @@
 .textarea{
   height: 220px;
   margin: 14px;
-  border-radius: 5px;
+  border-radius:10px;
   width: 80%;
   margin: auto;
-  background-color: rgba(255, 255, 255, 0.825);
+  background-color: rgba(54, 54, 54, 0.825);
+  text-align: center;
+  padding: 30px;
+  color: white;
 }
 input{
   margin: auto;
  /*  width: 16.2rem; */
   width: 60%;
-  border-radius: 5px;
+  color: white;
+  border-radius: 10px;
   height: 20px;
-  background-color: rgba(255, 255, 255, 0.825);
+  background-color: rgba(54, 54, 54, 0.825);
 }
 
 .buton{
@@ -66,7 +71,7 @@ input{
   border-radius: 10px;
   height: 40px;
   font-size: 22px;
-
+  margin-top: 10px;
 }
 
 
