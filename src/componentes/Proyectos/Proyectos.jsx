@@ -75,7 +75,7 @@ function Proyecto({ titulo, descripcion, imagen, link }) {
 
 function Proyectos() {
   return (
-    <div>
+    <div className="container-projects">
       <div className="titulos-de-secciones">
         <span>My</span>
         <span className="texto-1">Projects</span>
